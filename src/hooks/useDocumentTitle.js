@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 
 function useDocumentTitle(pageTitle) {
-  useEffect(() => {
+ useEffect(() => {
     document.title = pageTitle;
-  }, [pageTitle]);
+ }, [pageTitle]);
 }
 
 export default useDocumentTitle;
